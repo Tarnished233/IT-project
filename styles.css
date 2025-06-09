@@ -2,7 +2,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
-
+#main{
+    border: 2px solid black;
+    position: relative;
+}
 
 .picture{
     display: flex;
@@ -18,7 +21,7 @@
     font-family: 'Times New Roman', Times, serif;
    
 }
-.tit{
+.title{
     text-align: center;
 }
 li{
@@ -26,7 +29,7 @@ li{
     padding-bottom: 10px;
 }
 #nav{
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 20vw;
     left: 3%;
@@ -53,8 +56,11 @@ li{
     padding-bottom: 3vh;
     padding-top: 3vh;
 }
-.fact{
+#fact{
     font-size: 25px;
     position: relative;
     left: 35%;
+}
+#facts-title{
+    font-size: 40px;
 }
