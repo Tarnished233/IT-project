@@ -1,24 +1,28 @@
-#body{
-    position: relative;
-    width: 80vw;
-    right: 0%;
+.html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
 }
+
+
 .picture{
     display: flex;
-    width: 700px;
     margin: auto;
+    width: 700px;
+    margin-right: 70vw;
+    margin-top: 30px;
 }
 #intro{
-    text-align: center;
+    position: relative;
+    left: 35%;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 .tit{
     text-align: center;
 }
 li{
     font-size: 35px;
-    text-align: center;
     padding-bottom: 10px;
 }
 #nav{
@@ -26,6 +30,7 @@ li{
     height: 100vh;
     width: 20vw;
     left: 3%;
+    background-color: rgb(200, 200, 200);
 }
 .nav-link{
     display: flex;
@@ -47,4 +52,9 @@ li{
     text-align: center;
     padding-bottom: 3vh;
     padding-top: 3vh;
+}
+.fact{
+    font-size: 25px;
+    position: relative;
+    left: 35%;
 }
