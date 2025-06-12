@@ -9,7 +9,7 @@ html{
     display: flex;
     position: relative;
     left: 0%;
-    width: 700px;
+    width: 30vw;
     margin-right: 70vw;
     margin-top: 30px;
 }
@@ -64,16 +64,19 @@ li{
 }
 #facts-title{
     font-size: 40px;
+    display: inline;
 }
 #main{
     position: absolute;
-    border: 3px solid black;
+    
     color: black;
     width: 70vw;
     right: 0%;
 }
-#places-title{
+.title-place{
     font-size: 40px;
+    display: inline;
+    
 }
 #places_to_go{
     font-size: 25px;
@@ -81,6 +84,36 @@ li{
     left: 15%;
 }
 p{
-    padding-left: 30px;
+    padding-left: 3vw;
     max-width: 45vw;
+}
+.place-image{
+    object-fit: cover;
+    width: 20vw;
+    margin-left: 3vw;
+}
+.header-image{
+    object-fit: cover;
+    width: 50px;
+    margin-left: 10px;
+    padding-top: 20px;
+    position: relative;
+    left: 5%;
+    max-height: 50px;
+}
+#weather{
+    font-size: 25px;
+    position: relative;
+    left: 15%;
+}
+.margin-t{
+    margin-top: 20px;
+}
+.title-weather{
+    display: inline;
+}
+.weather-image{
+    object-fit: cover;
+    width: 40vw;
+    margin-left: 3vw;
 }
