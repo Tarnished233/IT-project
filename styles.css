@@ -6,12 +6,11 @@ html{
     font-size: 35px;
 }
 .picture{
-    display: flex;
-    position: relative;
-    left: 0%;
-    width: 30vw;
-    margin-right: 70vw;
-    margin-top: 30px;
+    padding-right: 100px;
+    width: 100%;
+    max-height: 20vh;
+    object-fit: cover;
+    border-radius: 10px;
 }
 #intro{
     position: relative;
@@ -56,6 +55,7 @@ li{
     text-align: center;
     padding-bottom: 3vh;
     padding-top: 3vh;
+    text-decoration: none;
 }
 #fact{
     font-size: 25px;
@@ -114,6 +114,11 @@ p{
 }
 .weather-image{
     object-fit: cover;
-    width: 40vw;
-    margin-left: 3vw;
+    width: 35vw;
+    margin-left: 7vw;
+}
+#foods{
+    font-size: 25px;
+    position: relative;
+    left: 15%;
 }
