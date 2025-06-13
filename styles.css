@@ -122,3 +122,27 @@ p{
     position: relative;
     left: 15%;
 }
+#extra{
+    font-size: 25px;
+    position: relative;
+    left: 15%;
+}
+.title-video{
+    font-size: 40px;
+    margin-top: 30px;
+}
+#video{
+    width: 40vw;
+    margin-left: 5vw;
+}
+footer{
+    position:relative;
+    left: 0%;
+    bottom: 0%;
+    border-top: 3px solid gray;
+    font-size: 20px;
+
+}
+.web{
+    font-size: 20px;
+}
