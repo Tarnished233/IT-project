@@ -137,12 +137,17 @@ p{
 }
 footer{
     position:relative;
-    left: 0%;
+    left: 15%;
     bottom: 0%;
     border-top: 3px solid gray;
     font-size: 20px;
+    margin-top: 5vh;
+    
 
 }
 .web{
     font-size: 20px;
+}
+.resources{
+    padding-left: 0;
 }
