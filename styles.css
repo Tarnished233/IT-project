@@ -19,9 +19,6 @@ html{
     font-family: 'Times New Roman', Times, serif;
    
 }
-.title{
-    text-align: center;
-}
 li{
     font-size: 35px;
     padding-bottom: 10px;
@@ -45,7 +42,6 @@ li{
     margin-top: 20px;
     border-bottom: 2px solid gray; 
     text-decoration: none;
-     
 }
 .nav-link:first-of-type{
     border-top: 2px solid gray;
@@ -150,4 +146,61 @@ footer{
 }
 .resources{
     padding-left: 0;
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width:1200px) {
+  p,li {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+   .nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-bottom: 1px solid gray; 
+    text-decoration: none;
+}
+}
+@media only screen and (max-width:1200px) {
+  .title{
+    text-align: center;
+    font-size: 30px;
+}
+}
+@media only screen and (max-width:1200px) {
+.nav-title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -5vh;
+    text-decoration: none;
+}
+}
+@media only screen and (max-width:1200px) {
+  #title{
+    font-size: 40px;
+}
+}
+@media only screen and (max-width:1200px) {
+ #main{
+    position: absolute;
+    color: black;
+    width: 60vw;
+    right: 0%;
+}
+}
+@media only screen and (max-width:1200px) {
+  #facts-title,.title-place,.title-weather,.title-video,.foods-title{
+    font-size: 30px;
+}
 }
